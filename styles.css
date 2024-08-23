@@ -1,3 +1,6 @@
 html, body {
-    background-color: grey;
+    background-color: rgb(38, 50, 61);
+    color: white;
+    text-align: center;
+    font-size: xx-large;
 }
