@@ -19,6 +19,11 @@ html, body {
     background-color: rgb(46, 73, 98);
 }
 
+.main-element:hover {
+    background-color: rgb(47, 96, 143);
+    transform: scale(1.05);
+}
+
 /* @media (max-width: 1300px) {
     body {
       font-size: 14px;
