@@ -5,6 +5,22 @@ html, body {
     font-size: xx-large;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.menu {
+    padding: 50px;
+    margin-right: 65px;
+    text-decoration : none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
 .content {
     display: flex;
     gap: 40px;
