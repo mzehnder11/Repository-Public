@@ -5,14 +5,43 @@ html, body {
     font-size: xx-large;
 }
 
-main {
+.content {
     display: flex;
     gap: 40px;
     justify-content: center;
 }
 
 .main-element {
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 30px;
     border-radius: 15px;
     background-color: rgb(46, 73, 98);
 }
+
+/* @media (max-width: 1300px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    body {
+      font-size: 12px;
+    }
+    .container {
+      padding: 8px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    body {
+      font-size: 8px;
+    }
+    .container {
+      padding:6px;
+    }
+  } 
