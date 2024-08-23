@@ -4,3 +4,15 @@ html, body {
     text-align: center;
     font-size: xx-large;
 }
+
+main {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.main-element {
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(46, 73, 98);
+}
