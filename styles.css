@@ -7,24 +7,20 @@ html, body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: auto;
 }
-.menu {
-    padding: 50px;
-    margin-right: 65px;
-    text-decoration : none;
-}
 
-.menu a{
-    text-decoration: none;
-    color: white;
+main {
+  background-color: transparent;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .content {
     display: flex;
     gap: 40px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .main-element {
